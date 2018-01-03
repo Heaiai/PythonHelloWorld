@@ -1,0 +1,8 @@
+DaysPerYear = str(365)
+print('每年有'+DaysPerYear+"天")
+HoursPerYear = str(int(DaysPerYear) * 24)
+print('每年有'+HoursPerYear+'小时')
+MinutesPerYear = str(int(HoursPerYear) * 60)
+print('每年有'+MinutesPerYear+'分钟')
+SecondsPerYear = str(int(MinutesPerYear) * 60)
+print('每年有'+SecondsPerYear+'秒')
